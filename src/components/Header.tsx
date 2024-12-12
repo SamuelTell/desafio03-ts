@@ -9,7 +9,7 @@ export const Header = () => {
   const navigate = useNavigate();
 
   const logout = () => {
-    changeLocalStorage({ login: false });
+    changeLocalStorage({ login: true, nome: "", email: "" });
     setIsLoggedIn(false);
     navigate("/");
   };

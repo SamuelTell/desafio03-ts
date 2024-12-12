@@ -6,6 +6,8 @@ import {
 
 const dioBank = {
   login: false,
+  nome: "",
+  email: "",
 };
 
 describe("storage", () => {
